@@ -27,3 +27,4 @@ RUN a2enmod rewrite
 RUN service apache2 restart
 
 RUN echo "<?php phpinfo(); ?>" >> /var/www/html/info.php
+
